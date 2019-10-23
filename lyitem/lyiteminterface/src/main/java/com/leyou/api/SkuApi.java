@@ -12,6 +12,6 @@ public interface SkuApi {
 
     @GetMapping("sku/list/ids")
     public List<Sku> querySkuBySkuId(@RequestParam("ids") List<Long> ids);
-
+    //测试git
 
 }
